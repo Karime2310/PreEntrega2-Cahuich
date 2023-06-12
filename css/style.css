@@ -1,0 +1,134 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: #0000;
+}
+a {
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+.cabecera {
+    background-color: rgb(255, 179, 212);
+}
+
+
+.menu, .submenu {
+    list-style: none;
+}
+
+.seccion-principal{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.seccion-principal:before{
+    content: "";
+    background-image:url("/assets/img/banner.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+h1 {
+    position: relative;
+    color: #000000;
+    font-size: 50px;
+    line-height: 0.9;
+    text-align: center;
+}
+@media (min-width: 1200px) {
+    .h1 {
+        font-size: 4rem;
+    }
+}
+span {
+    position: relative;
+    color: #313030;
+    font-size: 20px;
+    line-height: 0.9;
+    text-align: center;
+}
+@media (min-width: 1200px) {
+    .span {
+        font-size: 4rem;
+    }
+}
+
+.btn-primary{
+    font-size: 20px;
+    background-color: #ffb3d4;
+    position: relative;
+    line-height: 0.9;
+    padding: 10px;
+    border-radius: 40px;
+    color: #060a0e;
+    border-color: #ffb3d4;
+    margin-top: 20px;
+
+}
+
+.redSocial{
+    background-color: #ffb3d4;
+    border-radius: 40%;
+    border-color: #ffb3d4;
+    width: 100px;
+    height: 100px;
+
+
+}
+.seccion-secundario{
+    background-color: #ffb3d4;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-color-azul{
+   background-color: #bafdfd;
+}
+
+.active{
+    color: aliceblue;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
