@@ -32,7 +32,7 @@ a {
 }
 .seccion-principal:before{
     content: "";
-    background-image:url("/assets/img/banner.jpg");
+    background-image:url("../assets/img/banner.jpg");
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -92,11 +92,18 @@ span {
 .seccion-secundario{
     background-color: #ffb3d4;
     position: relative;
-    height: 20vh;
+    height: auto;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 30px ;
+}
+
+ .section-bco{
+    /*position: relative;*/
+    height: auto;
+    width: auto;
+  /* display: flex;*/
+    padding: 35px ;
 }
 
 .bg-color-azul{
@@ -131,4 +138,46 @@ span {
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* min-height: 100vh; */
+}
+
+.section-carrucel{
+    background-color: #bafdfd;
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 50px ;
 }
