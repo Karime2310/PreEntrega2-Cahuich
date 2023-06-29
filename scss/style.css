@@ -1,25 +1,21 @@
 @charset "UTF-8";
 body {
   font-family: Montserrat, sans-serif;
-  background-color: rgba(0, 0, 0, 0);
-}
+  background-color: #0000; }
 
 a {
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-weight: 600;
   text-decoration: none;
   font-size: 1.2rem;
-  line-height: 2rem;
-}
+  line-height: 2rem; }
 
 .cabecera {
-  background-color: #ffb3d4;
-}
+  background-color: #ffb3d4; }
 
 .menu, .submenu {
-  list-style: none;
-}
+  list-style: none; }
 
 .seccion-principal {
   position: relative;
@@ -27,67 +23,56 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .seccion-principal {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../assets/img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-}
+  background-position: center center; }
 
 h1 {
   color: #000000;
   font-size: 50px;
   line-height: 0.9;
-  text-align: center;
-}
+  text-align: center; }
 
 span {
   position: relative;
   color: #313030;
   font-size: 20px;
   line-height: 0.9;
-  text-align: center;
-}
+  text-align: center; }
 
 .section-secundario {
   background-color: rgba(255, 179, 212, 0.8);
-  padding: 5rem;
-}
+  padding: 5rem; }
 
 .section-catalog {
   background-color: #ffb3d4;
-  padding: 2rem;
-}
+  padding: 2rem; }
 
 .section-bco {
-  padding: 4rem;
-}
+  padding: 4rem; }
 
 .panel {
   padding: 0 18px;
   background-color: white;
   display: none;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .timeline {
   border-left: 1px solid #e6e6e6;
   position: relative;
-  list-style: none;
-}
+  list-style: none; }
 
 .timeline .timeline-item {
-  position: relative;
-}
+  position: relative; }
 
 .timeline .timeline-item:after {
   position: absolute;
   display: block;
-  top: 0;
-}
+  top: 0; }
 
 .timeline .timeline-item:after {
   background-color: #e6e6e6;
@@ -95,30 +80,25 @@ span {
   border-radius: 50%;
   height: 11px;
   width: 11px;
-  content: "";
-}
+  content: ""; }
 
 /* Estilos personalizados para el carrusel de testimonios */
 /* Ajuste de altura para el carrusel */
 #testimonial-carousel {
-  height: 300px;
-}
+  height: 300px; }
 
 /* Estilo para el título del testimonio */
 .card-title {
   font-size: 18px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Estilo para el texto del testimonio */
 .card-text {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 /* Estilo para el nombre del usuario */
 .card-footer small {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 /* Estilo para los botones de control del carrusel */
 .carousel-control-prev-icon,
@@ -126,32 +106,25 @@ span {
   background-color: #000;
   /* Color de fondo para los íconos */
   width: 30px;
-  height: 30px;
-}
+  height: 30px; }
 
 .carousel-control-prev,
 .carousel-control-next {
   width: 30px;
   height: 30px;
   opacity: 0.8;
-  /* Opacidad de los botones */
-}
+  /* Opacidad de los botones */ }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   opacity: 1;
-  /* Opacidad al pasar el cursor sobre los botones */
-}
+  /* Opacidad al pasar el cursor sobre los botones */ }
 
 /* Ajuste de posición vertical de los botones de control */
 .carousel-control-prev {
-  margin-top: -15px;
-}
+  margin-top: -15px; }
 
 .carousel-control-next {
-  margin-top: -15px;
-}
-
-
+  margin-top: -15px; }
 
 /*# sourceMappingURL=style.css.map */

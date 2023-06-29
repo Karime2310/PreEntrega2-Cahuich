@@ -1,0 +1,265 @@
+body{
+  font-family: Montserrat, sans-serif;
+  background-color: #0000;
+}
+a {
+  color: black;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+
+.cabecera {
+  background-color: rgb(255, 179, 212);
+}
+
+
+.menu, .submenu {
+  list-style: none;
+}
+
+.seccion-principal {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.seccion-principal {
+  //background-image: url('../assets/img/banner.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('../assets/img/banner.jpg');
+  //opacity: 0.3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  //background-color: rgba(0, 0, 0, 0.0); /* Cambia el último valor (0.5) para ajustar la opacidad */
+  //background-blend-mode: multiply;
+}
+
+//
+h1 {
+  color: #000000;
+  font-size: 50px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+//@media (min-width: 1200px) {
+//  .h1 {
+//    font-size: 4rem;
+//  }
+//}
+span {
+  position: relative;
+  color: #313030;
+  font-size: 20px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+//@media (min-width: 1200px) {
+//  .span {
+//    font-size: 4rem;
+//  }
+//}
+//
+//.btn-primary{
+//  font-size: 20px;
+//  background-color: #ffb3d4;
+//  position: relative;
+//  line-height: 0.9;
+//  padding: 10px;
+//  border-radius: 40px;
+//  color: #060a0e;
+//  border-color: #ffb3d4;
+//  margin-top: 20px;
+//
+//}
+//
+//.redSocial{
+//  background-color: #ffb3d4;
+//  border-radius: 40%;
+//  border-color: #ffb3d4;
+//  width: 100px;
+//  height: 100px;
+//
+//
+//}
+.section-secundario {
+  background-color:rgba(255, 179, 212, 0.8);
+  padding: 5rem;
+}
+.section-catalog{
+  background-color: #ffb3d4;
+  padding: 2rem;
+}
+
+//
+.section-bco{
+  //height: auto;
+  //width: auto;
+  padding: 4rem ;
+}
+//
+//.bg-color-azul{
+//  background-color: #bafdfd;
+//}
+//
+//.active{
+//  color: aliceblue;
+//}
+//
+//
+//.accordion {
+//  background-color: #eee;
+//  color: #444;
+//  cursor: pointer;
+//  padding: 18px;
+//  width: 100%;
+//  text-align: left;
+//  border: none;
+//  outline: none;
+//  transition: 0.4s;
+//}
+//
+///* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+//.active, .accordion:hover {
+//  background-color: #ccc;
+//}
+//
+///* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+//
+//.abs-center {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  /* min-height: 100vh; */
+//}
+//
+//.section-carrucel{
+//  background-color: #bafdfd;
+//  position: relative;
+//  height: auto;
+//  width: 100%;
+//  display: flex;
+//  padding: 50px ;
+//}
+
+//.carousel-inner .carousel-item.active,
+//.carousel-inner .carousel-item-next,
+//.carousel-inner .carousel-item-prev {
+//  display: flex;
+//}
+//
+//.carousel-inner .carousel-item-right.active,
+//.carousel-inner .carousel-item-next {
+//  transform: translateX(33.333%);
+//}
+//
+//.carousel-inner .carousel-item-left.active,
+//.carousel-inner .carousel-item-prev {
+//  transform: translateX(-33.333%);
+//}
+//
+//.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+//.MultiCarousel{ Height: 200px;}
+//.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+//.MultiCarousel .MultiCarousel-inner .item { float: left;}
+//.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
+//.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+//.MultiCarousel .leftLst { left:0; }
+//.MultiCarousel .rightLst { right:0; }
+//
+//.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+
+/* Estilos personalizados para el carrusel de testimonios */
+
+/* Ajuste de altura para el carrusel */
+#testimonial-carousel {
+  height: 300px;
+}
+
+/* Estilo para el título del testimonio */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para el texto del testimonio */
+.card-text {
+  font-size: 14px;
+}
+
+/* Estilo para el nombre del usuario */
+.card-footer small {
+  font-size: 12px;
+}
+
+/* Estilo para los botones de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000; /* Color de fondo para los íconos */
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8; /* Opacidad de los botones */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1; /* Opacidad al pasar el cursor sobre los botones */
+}
+
+/* Ajuste de posición vertical de los botones de control */
+.carousel-control-prev {
+  margin-top: -15px;
+}
+
+.carousel-control-next {
+  margin-top: -15px;
+}
